@@ -15,25 +15,25 @@ The main dataset is OSHA Accident and Injury Data, containing accident and injur
 ## Methods Used
 
 - Text cleaning and preprocessing
-- - Word frequency analysis
-  - - Word cloud visualisation
-    - - Rule-based hazard categorisation
-      - - BERTopic topic modelling
-        - - Gensim LDA comparison
-          - - Safety recommendation synthesis
-           
-            - ## Key Findings
-           
-            - The analysis identifies recurring safety themes such as falls from height, struck-by incidents, equipment-related accidents, caught-between hazards, electrocution, and collapse-related risks.
-           
-            - ## Business Value
-           
-            - The project demonstrates how NLP can help safety professionals review large volumes of accident narratives more efficiently, identify repeated hazards, and prioritise prevention measures.
-           
-            - ## Tools
-           
-            - Python, pandas, NLTK, matplotlib, wordcloud, BERTopic, sentence-transformers, Gensim, Google Colab.
-           
-            - ## Author
-           
-            - Yenlik Gaisina
+- Word frequency analysis
+- Word cloud visualisation
+- Rule-based hazard categorisation
+- BERTopic topic modelling
+- Gensim LDA comparison
+- Safety recommendation synthesis
+
+## Key Findings
+
+The analysis identifies recurring safety themes such as falls from height, struck-by incidents, equipment-related accidents, caught-between hazards, electrocution, and collapse-related risks.
+
+## Business Value
+
+The project demonstrates how NLP can help safety professionals review large volumes of accident narratives more efficiently, identify repeated hazards, and prioritise prevention measures.
+
+## Tools
+
+Python, pandas, NLTK, matplotlib, wordcloud, BERTopic, sentence-transformers, Gensim, Google Colab.
+
+## Author
+
+Yenlik Gaisina
