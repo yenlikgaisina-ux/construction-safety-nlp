@@ -1,4 +1,6 @@
-# Construction Safety NLP  From Unread Reports to Actionable Insights
+# Construction Safety NLP: From Unread Reports to Actionable Insights
+
+**Project status:** Complete portfolio case study. Raw data is not redistributed; analysis can be reproduced by downloading the OSHA dataset and running the notebook.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yenlikgaisina-ux/construction-safety-nlp/blob/main/notebooks/construction_safety_nlp_analysis.ipynb)
 
@@ -11,11 +13,11 @@
 
 ## Executive Summary
 
-This project applies a full Natural Language Processing pipeline to OSHA construction accident narratives (20152017) to surface recurring safety failure patterns. By combining rule-based hazard tagging with **BERTopic** and **LDA**, the analysis transforms ~25,000 unread incident reports into a quantified, prioritised safety dashboard with five concrete recommendations for construction firms.
+This project applies a full Natural Language Processing pipeline to OSHA construction accident narratives (2015–2017) to surface recurring safety failure patterns. By combining rule-based hazard tagging with **BERTopic** and **LDA**, the analysis transforms ~25,000 unread incident reports into a quantified, prioritised safety dashboard with five concrete recommendations for construction firms.
 
-**Headline result:** roughly one in three narratives mention falls from scaffolds, ladders, or roofs  making fall protection the highest-leverage safety investment.
+**Headline result:** roughly one in three narratives mention falls from scaffolds, ladders, or roofs — making fall protection the highest-leverage safety investment.
 
-_All visualisations and findings were generated from the OSHA Accident and Injury dataset using the notebook in this repository._
+_Note: This repository demonstrates the full NLP workflow. The raw OSHA dataset is not redistributed, so users can regenerate the results by downloading the dataset from Kaggle and running the notebook._
 
 ---
 
@@ -27,7 +29,7 @@ Construction is one of the highest-risk industries worldwide. Every year, thousa
 
 ## Dataset
 
-**Primary source:** [OSHA Accident and Injury Data 20152017 (Kaggle)](https://www.kaggle.com/datasets/ruqaiyaship/osha-accident-and-injury-data-1517)
+**Primary source:** [OSHA Accident and Injury Data 2015–2017 (Kaggle)](https://www.kaggle.com/datasets/ruqaiyaship/osha-accident-and-injury-data-1517)
 
 The raw dataset is **not redistributed** in this repository (see Kaggle's terms). To reproduce the analysis:
 
@@ -59,8 +61,6 @@ The raw dataset is **not redistributed** in this repository (see Kaggle's terms)
 ---
 
 ## Visual Results
-
-> **Note:** The visualisations below demonstrate the full analytical workflow. To regenerate them with real data, download the OSHA dataset from Kaggle, place it at `data/raw/osha.csv`, and run all notebook cells. The raw data is not redistributed in this repository.
 
 **Top 20 most frequent words**  
 ![Top Words](visuals/top_20_words.png)
@@ -154,13 +154,13 @@ construction-safety-nlp/
 - The OSHA dataset is biased toward serious / reportable incidents and may under-represent near-misses.
 - Narratives are written by investigators, so phrasing is consistent but may bury root causes.
 - Topic models surface correlations, not causation.
-- The 20152017 window pre-dates several recent regulatory changes.
+- The 2015–2017 window pre-dates several recent regulatory changes.
 
 ---
 
 ## Next Steps
 
-- Re-run on the 20182024 OSHA data when released.
+- Re-run on the 2018–2024 OSHA data when released.
 - Cross-reference with injury severity to weight recommendations.
 - Build a Streamlit dashboard for safety officers.
 - Compare US (OSHA) patterns with UK (HSE) construction enforcement data.
