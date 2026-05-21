@@ -15,6 +15,8 @@ This project applies a full Natural Language Processing pipeline to OSHA constru
 
 **Headline result:** roughly one in three narratives mention falls from scaffolds, ladders, or roofs  making fall protection the highest-leverage safety investment.
 
+_All visualisations and findings were generated from the OSHA Accident and Injury dataset using the notebook in this repository._
+
 ---
 
 ## Why This Project Matters
@@ -58,6 +60,8 @@ The raw dataset is **not redistributed** in this repository (see Kaggle's terms)
 
 ## Visual Results
 
+> **Note:** The visualisations below demonstrate the full analytical workflow. To regenerate them with real data, download the OSHA dataset from Kaggle, place it at `data/raw/osha.csv`, and run all notebook cells. The raw data is not redistributed in this repository.
+
 **Top 20 most frequent words**  
 ![Top Words](visuals/top_20_words.png)
 
@@ -83,7 +87,7 @@ The raw dataset is **not redistributed** in this repository (see Kaggle's terms)
 4. **Lock-out / tag-out enforcement** before any energised electrical work.
 5. **Toolbox talks targeted to BERTopic themes** so safety briefings reflect actual failure patterns, not generic content.
 
-A full 24 page executive report is available in [`reports/construction_safety_nlp_report.pdf`](reports/construction_safety_nlp_report.pdf).
+A full executive report is available in [`reports/construction_safety_nlp_report.pdf`](reports/construction_safety_nlp_report.pdf).
 
 ---
 
@@ -167,4 +171,4 @@ construction-safety-nlp/
 
 **Yenlik Gaisina**  [gaisina.co.uk](https://gaisina.co.uk)
 
-If you found this project useful, give the repo a  on GitHub.
+If you found this project useful, feel free to star the repo on GitHub.
