@@ -2,7 +2,7 @@
 
 **Project status:** Complete portfolio case study. Raw data is not redistributed; analysis can be reproduced by downloading the OSHA dataset and running the notebook.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yenlikgaisina-ux/construction-safety-nlp/blob/main/notebooks/construction_safety_nlp_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yenlikgaisina/construction-safety-nlp/blob/main/notebooks/construction_safety_nlp_analysis.ipynb)
 
 > **Before NLP**, each accident narrative would need to be reviewed manually  slow, expensive, inconsistent.  
 > **After NLP**, hundreds or thousands of narratives can be grouped into recurring safety themes in minutes, giving safety managers a prioritised view of where to act first.
@@ -95,7 +95,7 @@ A full executive report is available in [`reports/construction_safety_nlp_report
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yenlikgaisina-ux/construction-safety-nlp.git
+git clone https://github.com/yenlikgaisina/construction-safety-nlp.git
 cd construction-safety-nlp
 
 # 2. Install dependencies
